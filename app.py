@@ -10,11 +10,11 @@ scaler = joblib.load("scaler.bin")
 model = joblib.load("knn_model.bin")
 
 # Cargar imagen
-image = Image.open("heart.jpg")
+image = Image.open("corazon.jpg")
 
 # Configurar la página
 st.title("Predicción de Enfermedad del Corazón")
-st.subheader("Realizado por Cesar Solano")
+st.subheader("Realizado por Cristian Cala")
 st.image(image, caption="Cuidado del corazón",  use_container_width =True)
 
 # Instrucciones
