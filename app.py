@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Cargar modelo y escalador
 scaler = joblib.load("scaler.bin")
-model = joblib.load("knn_model.joblib")
+model = joblib.load("knn_model.bin")
 
 # Cargar imagen
 image = Image.open("heart.jpg")
