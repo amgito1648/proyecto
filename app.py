@@ -6,7 +6,7 @@ from PIL import Image
 from sklearn.preprocessing import StandardScaler
 
 # Cargar modelo y escalador
-scaler = joblib.load(open("scaler.bin", "rb"))
+scaler = joblib.load("scaler.bin")
 model = joblib.load("knn_model.joblib")
 
 # Cargar imagen
@@ -14,7 +14,7 @@ image = Image.open("heart.jpg")
 
 # Configurar la página
 st.title("Predicción de Enfermedad del Corazón")
-st.subheader("Realizado por Cristian")
+st.subheader("Realizado por Cesar Solano")
 st.image(image, caption="Cuidado del corazón",  use_container_width =True)
 
 # Instrucciones
