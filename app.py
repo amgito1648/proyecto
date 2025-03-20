@@ -14,7 +14,7 @@ image = Image.open("heart.jpg")
 
 # Configurar la página
 st.title("Predicción de Enfermedad del Corazón")
-st.subheader("Realizado por Cesar Solano")
+st.subheader("Realizado por Cristian")
 st.image(image, caption="Cuidado del corazón",  use_container_width =True)
 
 # Instrucciones
